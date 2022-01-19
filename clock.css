@@ -1,0 +1,19 @@
+*{
+    background-color: #101820FF;
+    
+}
+.timeDiv{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 5em;
+    color:#FEE715FF;
+    /* background-color: #F2AA4CFF; */
+}
+#meridian{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3em;
+    position: relative;
+    bottom: 0.4em;
+    color:#FEE715FF;
+    /* color:#101820FF; */
+    /* background-color: #F2AA4CFF; */
+}

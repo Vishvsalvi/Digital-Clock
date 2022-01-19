@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <div class="container" style="display: flex; align-items: center;justify-content: center; padding: 4px;  height: 50px; width: 500px; margin-top: 19em; margin-left: 30em;"  >
+        <div onload="displayTime()" class=" timeDiv" id="hours" style="padding: 4px;"> </div>
+        <div onload="displayTime()" class=" timeDiv" id="minutes" style=" padding: 4px;"> </div>
+        <div onload="displayTime()" class=" timeDiv" id="seconds" style="padding: 4px;"> </div>
+        <div onload="displayTime()"  id="meridian" style="padding: 4px; "></div>
+    </div>
+    <script src="clock.js"></script>
+</body>
+</html>
